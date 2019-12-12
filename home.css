@@ -1,0 +1,368 @@
+
+				html {
+				  background:url(pic/Travel-Burma-Myanmar-6.jpg) repeat center fixed;
+				  padding: 0;
+				 height:3500px;
+			
+				}
+				
+				body {
+				  
+				  font-family: "Comic Sans MS", cursive;
+				  line-height: 1em;
+				  margin:3em auto;
+				  border: 4px solid #BDC3C7;
+				  box-shadow: 0 0 10px #ddd;
+				  color:#fff;
+				  height:3500px;
+				  
+				}
+
+				a {
+				  color:#00f;
+				  text-decoration: none;
+				  font-size:18px;
+				  font-family:"Times New Roman", Times, serif;
+				 
+				}
+				
+				a:hover {
+				  border-bottom: 1px solid #2980B9;
+				  font-size:20px;
+				  text-decoration: none;
+				  }
+					
+							
+				.des {
+				  display: block;
+				  font-size: 1em;
+				}
+				
+				.limg
+				{	
+					float: left;
+					margin:32px 0px 0px 0px;
+					border-radius:50px; 
+					width: 60px;
+					height: 60px;
+				}				
+				
+				.limg:hover
+				{
+				  opacity:0.9;
+				 }
+
+				h1 {
+				  font-family:Jokerman;
+				  color: #00F;
+				  text-shadow:6px 5px 1px #C600C6;
+				  font-size:large;
+				  padding:5px;
+					}
+				
+				h2 {
+				  font-size: 0.8em;
+				  color: #fff;
+				  font-weight: normal;
+				  margin: 0;
+				}
+				
+				.nav, .sub {
+					font-family:Georgia, "Times New Roman", Times, serif;
+					font-size:18px;
+					list-style: none;
+					margin: 0;
+					padding: 0;
+					width:100%;
+					display:block;
+					margin-bottom: 6em;
+	
+				}
+				.nav li a:visited {
+					color: #fff;
+				}
+			
+				.nav li {
+					
+					background:#FF0000;
+					height: 50px;
+					line-height: 50px;
+					text-align: center;
+					width: 118px;
+					
+				}
+				.nav li a {
+					display: block;
+					text-decoration: none;
+					color: #fff;
+				}
+				}
+				.nav li a:active
+				{   
+
+					border: 1px solid #C0392B;
+					background:#FF0000;
+					color:#fff;
+					font-family:Georgia, "Times New Roman", Times, serif;
+					}
+
+				.nav > li {
+					border-right: 1px solid #C0392B;
+					float: left;
+				}
+					
+				.sub {
+					
+					position: absolute;
+					display: none;
+				}
+				.nav > li:hover .sub {
+					display: block;
+				}
+				.sub li {
+					border-top: 1px solid #C0392B;
+					width:200px;
+					height:50px;
+				}
+				.content {
+					background-color:#FF0;
+					height:auto;
+				}
+	
+#slideshow{
+	width:95%;
+	margin-top:2%;
+	margin-left:2%;
+
+}
+
+
+/* - - - - - - - - - - - - - - -  Slider START  - - - - - - - - - - - - - - - */
+
+.html_carousel {
+}
+.html_carousel div.slide {
+	position: relative;
+}	
+.html_carousel div.slide img {
+	width: 100%;
+	height: auto;
+	-webkit-box-shadow: 0 1px 1px #c1c1c1;
+    -moz-box-shadow: 0 1px 1px #c1c1c1;
+    box-shadow: 0 1px 1px #c1c1c1;
+	border-radius:15px;
+}
+
+.clearfix {
+	float: none;
+	clear: both;
+}
+
+/* - - - - - - - - - - - - - - -  Slider END  - - - - - - - - - - - - - - - */
+
+
+	img[alt="show"]{
+	height:500px;
+	width:8oopx;
+	border-radius:5px;
+	}
+
+
+
+				
+.wrap
+ {	background-color:#FFF;
+ 	 width:960px;
+	 margin:0 auto;
+ }
+ 
+ h3
+ {
+	 font-family:Georgia, "Times New Roman", Times, serif;
+	 font-size: 18px;
+ 
+ }
+ h4
+ {	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+ 	text-align: center;
+ }
+ 
+ h5
+ {
+ 	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+ 	text-align: center;
+ }
+h6{ 
+					
+					font-weight:bold;
+					font-size:25px;
+					text-shadow:6px 5px 6px #aaa;
+					text-align:left;
+					font-family:"Times New Roman", Times, serif;
+					color:#FF0;
+					margin-left:10px;
+					margin-top:10px;
+					
+					}
+ul 
+{ 
+	inline: block; list-style: none;
+}
+
+li 
+{
+	float: left; list-style: none;
+	
+}
+
+.c1
+{	float: left;
+	width:280px;
+	height:1070px;
+	background-color:#8B1302;
+
+}
+.navc1
+{
+	height: 300px;
+	color: #fff;
+	width: 300px;
+	display: inline;
+	font-family:"Times New Roman", Times, serif;
+	
+
+}
+.navc1 li
+{
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	width: 200px;
+	font-size:18px;
+}
+.navc1 li a 
+{
+	display: block;
+	text-decoration: none;
+	color: #fff;
+}
+.lic1
+{	
+	font-weight: bold;
+	height: 50px;
+	background-color:#FFDB00;
+	color: #060001;
+	margin-top: 5px;
+}
+
+.c2
+{   float: right;
+	width:640px;
+	height:auto;
+	background-color:#FFF;
+	font-family:"Times New Roman", Times, serif;
+}
+
+.fp{
+	font-size: 18px;
+	line-height: 18px;
+	height:70px;
+	margin-left:10px;
+	font-family:"Times New Roman", Times, serif;
+	
+}
+
+.imgc2
+{
+	float: left;
+}
+.pc2
+{   width:280px;
+	margin-left:330px;
+	font-size: 18px;
+	height:200px;
+	color:#000;
+	line-height:1.5em;
+	font-family:"Times New Roman", Times, serif;
+}
+.contact
+{	
+	font-style: italic;
+	color: #fff;
+
+}
+.wd {
+	color: #fff;
+}
+.c3
+{
+		
+	clear:both;
+	width: 960px;
+	height:270px;
+	background:url(pic/Travel-Burma-Myanmar-6.jpg) repeat center fixed;
+	line-height: 10px; 
+	font-size: 12px;
+}
+ .imgc3
+ {
+	width: 280px;
+	height: 180px;
+	float: left;
+	padding: 10px;
+	border: 10px solid #fff;
+}
+
+
+	.name1
+	
+{	color:#000;
+	float: left;
+	width: 960px;
+	height: 50px;
+	background:url(pic/Travel-Burma-Myanmar-6.jpg) repeat center fixed;
+	
+}
+.name2
+{   color:#000;
+	float: left;
+	margin-left: 20px;
+	width: 320px;
+	text-align: justify;
+	float: left;
+	height: 30px; 
+}
+.name2>a , p>a {
+	
+	text-decoration:none;
+	font-size:18px;
+	font-weight:bold;}
+	
+		.f1{
+		
+		width:960px;
+		height:auto;
+		clear:both;
+		background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, transparent 100%) repeat scroll 0% 0% transparent;
+	}
+	
+	
+	.f2{
+
+	    text-align:justify;
+		font-family:David;
+		font-size:20px;
+		padding:0px 20px 20px 20px;
+		color:#fff;
+		margin:0px auto;
+		line-height:1.9em;
+		font-family:"Times New Roman", Times, serif;
+		background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 0%, transparent 100%) repeat scroll 0% 0% transparent;
+		}
+	.f2> a {
+		font-size:20px;
+		color:#00f;
+		font-family:"Times New Roman", Times, serif;
+		}
